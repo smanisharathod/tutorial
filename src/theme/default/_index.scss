@@ -187,10 +187,8 @@ h1, h2, h3, h4, h5,
 					}
 				}
 			}
-			&.active {
-				> a {
-					color: $primary;
-				}
+			&>a.active {
+				color: $primary;
 			}
 			@include media-breakpoint-down(md){
 				&.active {
@@ -232,10 +230,8 @@ h1, h2, h3, h4, h5,
 					padding-bottom: 0 !important;
 				}
 			}
-			&.active {
-				> a {
-					color: $primary!important;
-				}
+			&>a.active {
+				color: $primary!important;
 			}
 			&.cta {
 				> a {
